@@ -1,0 +1,1033 @@
+{
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "question1",
+          "title": "I consider myself someone who: ",
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "item1",
+              "text": "Likes looking for answers to problems"
+            },
+            { "value": "item2", "text": "Enjoys talking to people" },
+            { "value": "item3", "text": "Comfortable meeting others" },
+            {
+              "value": "item4",
+              "text": "Enjoys figuring out why people do things"
+            },
+            {
+              "value": "item5",
+              "text": "Has a strong interest in analyzing how things work"
+            },
+            {
+              "value": "item6",
+              "text": "Gets satisfaction from determining the causes of things"
+            },
+            { "value": "item7", "text": "Is fascinated by details" },
+            { "value": "item8", "text": "Likes using tools" },
+            { "value": "item9", "text": "Is more scientific than creative" },
+            { "value": "item10", "text": "Really likes playing team sports" },
+            {
+              "value": "item11",
+              "text": "Prefers to be highly skilled in one area versus being semi-skilled in many areas"
+            },
+            { "value": "item12", "text": "Enjoys helping others" },
+            { "value": "item13", "text": "Has a high level of patience" },
+            { "value": "item14", "text": "Does not like interruptions" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Silo1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Do you enjoy thinking outside the box?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Do you enjoy collecting intelligence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Do you prefer to make your own decisions?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Do you consider yourself a self-starter?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Would you prefer to work internationally?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question7",
+          "title": "Would you prefer to investigate violent crime matters?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Would you prefer to investigate crimes that operationally involve more than one subject?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question9",
+          "title": "Would you prefer to work as part of a large investigative team?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question10",
+          "title": "Do you like analyzing paper trails?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        }
+      ],
+      "visibleIf": "{question1} = 'item1' or {question1} = 'item2' or {question1} = 'item3'"
+    },
+    {
+      "name": "Silo2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Do you enjoy thinking outside the box?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Do you enjoy collecting intelligence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Do you prefer to make your own decisions?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Do you consider yourself a self-starter?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Would you prefer to work internationally?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question12",
+          "title": "Do you like chemistry?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question13",
+          "title": "Do you enjoy working on puzzles?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question14",
+          "title": "Do you like working on projects that last more than several days?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        }
+      ],
+      "visibleIf": "{question1} = 'item4' or {question1} = 'item5' or {question1} = 'item6'"
+    },
+    {
+      "name": "Silo3",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Do you enjoy thinking outside the box?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Do you enjoy collecting intelligence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Do you prefer to make your own decisions?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Do you consider yourself a self-starter?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Would you prefer to work internationally?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question16",
+          "title": "Would you like to examine crime scene evidence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question17",
+          "title": "Do you like biology?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question18",
+          "title": "Do you have a strong background in science?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        }
+      ],
+      "visibleIf": "{question1} = 'item7' or {question1} = 'item8' or {question1} = 'item9'"
+    },
+    {
+      "name": "Silo4",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Do you enjoy thinking outside the box?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Do you enjoy collecting intelligence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Do you prefer to make your own decisions?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Do you consider yourself a self-starter?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Would you prefer to work internationally?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question21",
+          "title": "Do you like operating mechanical devices?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question22",
+          "title": "Do you like travelling in groups?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question23",
+          "title": "Do you enjoy observing people?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        }
+      ],
+      "visibleIf": "{question1} = 'item10' or {question1} = 'item11' or {question1} = 'item12'"
+    },
+    {
+      "name": "Silo5",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Do you enjoy thinking outside the box?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Do you enjoy collecting intelligence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Do you prefer to make your own decisions?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Do you consider yourself a self-starter?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Would you prefer to work internationally?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question26",
+          "title": "Do you like puzzles?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question27",
+          "title": "Do you like working in extreme cold or heat?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        }
+      ],
+      "visibleIf": "{question1} = 'item13'"
+    },
+    {
+      "name": "Silo6",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "question2",
+          "title": "Do you enjoy thinking outside the box?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question3",
+          "title": "Do you enjoy collecting intelligence?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question4",
+          "title": "Do you prefer to make your own decisions?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question5",
+          "title": "Do you consider yourself a self-starter?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question6",
+          "title": "Would you prefer to work internationally?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question28",
+          "title": "Do you like stressful mental challenges?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "question29",
+          "title": "Do you like finding things?",
+          "choices": [
+            { "value": "Item 1", "text": "Yes" },
+            { "value": "Item 2", "text": "No" }
+          ]
+        }
+      ],
+      "visibleIf": "{question1} = 'item14'"
+    },
+    {
+      "name": "Answer1",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question30",
+          "title": "You're a Bank Fraud Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 2' and {question9} = 'Item 2' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer2",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question31",
+          "title": "You're a International Counter-Terrorism Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 1' and {question9} = 'Item 1' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer3",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question32",
+          "title": "You're an International Human Smuggling Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 1' and {question9} = 'Item 1' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer4",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question33",
+          "title": "You're an International Espionage Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 1' and {question9} = 'Item 2' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer5",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question34",
+          "title": "You're an International Financial Crimes Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 2' and {question9} = 'Item 1' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer6",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question35",
+          "title": "You're a Domestic Terrorism Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 1' and {question9} = 'Item 1' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer7",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question36",
+          "title": "You're an International Fugitve Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 1' and {question9} = 'Item 2' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer8",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question37",
+          "title": "You're an International Environmental Crimes Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 2' and {question9} = 'Item 1' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer9",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question38",
+          "title": "You're an International Cyber Crimes Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 2' and {question9} = 'Item 2' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer10",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question39",
+          "title": "You're an Undercover Narcotics Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 1' and {question9} = 'Item 1' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer11",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question40",
+          "title": "You're a Bombing Investigations Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 1' and {question9} = 'Item 2' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer12",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question41",
+          "title": "You're a Counterfeiting Investigations Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 2' and {question9} = 'Item 1' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer13",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question42",
+          "title": "You're an International Art Crimes Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 1' and {question8} = 'Item 2' and {question9} = 'Item 2' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer14",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question43",
+          "title": "You're a Fugitives from Justice Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 1' and {question9} = 'Item 2' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer15",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question44",
+          "title": "You're a Burglary Ring Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 2' and {question9} = 'Item 1' and {question10} = 'Item 2'"
+    },
+    {
+      "name": "Answer16",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question45",
+          "title": "You're a Money Laundering Agent!"
+        }
+      ],
+      "visibleIf": "{question7} = 'Item 2' and {question8} = 'Item 2' and {question9} = 'Item 2' and {question10} = 'Item 1'"
+    },
+    {
+      "name": "Answer17",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question46",
+          "title": "You're a Forensic Computer Analyst!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 2' and {question13} = 'Item 2' and {question14} = 'Item 2'"
+    },
+    {
+      "name": "Answer18",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question47",
+          "title": "You're a Forensic Bomb Investigator!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 1' and {question13} = 'Item 1' and {question14} = 'Item 1'"
+    },
+    {
+      "name": "Answer19",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question48",
+          "title": "You're a Forensic Arson Investigator!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 1' and {question13} = 'Item 1' and {question14} = 'Item 2'"
+    },
+    {
+      "name": "Answer20",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question49",
+          "title": "You're a Forensic Linguist!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 2' and {question13} = 'Item 1' and {question14} = 'Item 1'"
+    },
+    {
+      "name": "Answer21",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question50",
+          "title": "You're a Forensic Crash Investigator!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 1' and {question13} = 'Item 2' and {question14} = 'Item 1'"
+    },
+    {
+      "name": "Answer22",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question51",
+          "title": "You're a Forensic Firearms Investigator!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 1' and {question13} = 'Item 2' and {question14} = 'Item 2'"
+    },
+    {
+      "name": "Answer23",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question52",
+          "title": "You're a Forensic Accountant!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 2' and {question13} = 'Item 1' and {question14} = 'Item 2'"
+    },
+    {
+      "name": "Answer24",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question53",
+          "title": "You're a Forensic Artist!"
+        }
+      ],
+      "visibleIf": "{question12} = 'Item 2' and {question13} = 'Item 2' and {question14} = 'Item 1'"
+    },
+    {
+      "name": "Answer25",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question54",
+          "title": "You're a Video Images Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 2' and {question17} = 'Item 2' and {question18} = 'Item 2'"
+    },
+    {
+      "name": "Answer26",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question55",
+          "title": "You're a DNA Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 1' and {question17} = 'Item 1' and {question18} = 'Item 1'"
+    },
+    {
+      "name": "Answer27",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question56",
+          "title": "You're a Hairs and Fibers Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 1' and {question17} = 'Item 1' and {question18} = 'Item 2'"
+    },
+    {
+      "name": "Answer28",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question57",
+          "title": "You're a Criminal Profiler!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 2' and {question17} = 'Item 1' and {question18} = 'Item 1'"
+    },
+    {
+      "name": "Answer29",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question58",
+          "title": "You're a Tool Marks Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 1' and {question17} = 'Item 2' and {question18} = 'Item 1'"
+    },
+    {
+      "name": "Answer30",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question59",
+          "title": "You're a Prints and Impressions Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 1' and {question17} = 'Item 2' and {question18} = 'Item 2'"
+    },
+    {
+      "name": "Answer31",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question60",
+          "title": "You're a Polygraph Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 2' and {question17} = 'Item 1' and {question18} = 'Item 2'"
+    },
+    {
+      "name": "Answer32",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question61",
+          "title": "You're a Statement Examiner!"
+        }
+      ],
+      "visibleIf": "{question16} = 'Item 2' and {question17} = 'Item 2' and {question18} = 'Item 1'"
+    },
+    {
+      "name": "Answer33",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question62",
+          "title": "You're an Asset Seizure Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 2' and {question22} = 'Item 2' and {question23} = 'Item 2'"
+    },
+    {
+      "name": "Answer34",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question63",
+          "title": "You're a Physical Surveillance Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 1' and {question22} = 'Item 1' and {question23} = 'Item 1'"
+    },
+    {
+      "name": "Answer35",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question64",
+          "title": "You're a Helicopter Pilot/Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 1' and {question22} = 'Item 1' and {question23} = 'Item 2'"
+    },
+    {
+      "name": "Answer36",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question65",
+          "title": "You're a Personal Protection Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 1' and {question22} = 'Item 2' and {question23} = 'Item 2'"
+    },
+    {
+      "name": "Answer37",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question66",
+          "title": "You're a Surveillance Engineering Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 1' and {question22} = 'Item 2' and {question23} = 'Item 1'"
+    },
+    {
+      "name": "Answer38",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question67",
+          "title": "You're a Bomb Technician Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 1' and {question22} = 'Item 2' and {question23} = 'Item 2'"
+    },
+    {
+      "name": "Answer39",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question68",
+          "title": "You're a Defensive Tactics Instructor!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 2' and {question22} = 'Item 1' and {question23} = 'Item 2'"
+    },
+    {
+      "name": "Answer40",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question69",
+          "title": "You're a Undercover Assignment Specialist!"
+        }
+      ],
+      "visibleIf": "{question21} = 'Item 2' and {question22} = 'Item 2' and {question23} = 'Item 1'"
+    },
+    {
+      "name": "Answer41",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question70",
+          "title": "You're a SWAT Team Member!"
+        }
+      ],
+      "visibleIf": "{question26} = 'Item 1' and {question27} = 'Item 1'"
+    },
+    {
+      "name": "Answer42",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question71",
+          "title": "You're a Search and Rescue Team Member!"
+        }
+      ],
+      "visibleIf": "{question26} = 'Item 1' and {question27} = 'Item 2'"
+    },
+    {
+      "name": "Answer43",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question72",
+          "title": "You're Hostage Extraction Team Member!"
+        }
+      ],
+      "visibleIf": "{question26} = 'Item 2' and {question27} = 'Item 1'"
+    },
+    {
+      "name": "Answer44",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question73",
+          "title": "You're A SCUBA Operator!"
+        }
+      ],
+      "visibleIf": "{question26} = 'Item 2' and {question27} = 'Item 2'"
+    },
+    {
+      "name": "Answer45",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question74",
+          "title": "You're a Jet Pilot!"
+        }
+      ],
+      "visibleIf": "{question28} = 'Item 1' and {question29} = 'Item 1'"
+    },
+    {
+      "name": "Answer46",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question75",
+          "title": "You're a Crisis Negotiator!"
+        }
+      ],
+      "visibleIf": "{question28} = 'Item 1' and {question29} = 'Item 2'"
+    },
+    {
+      "name": "Answer47",
+      "elements": [
+        { "type": "rating", "name": "question76", "title": "You're Evidence!" }
+      ],
+      "visibleIf": "{question28} = 'Item 2' and {question29} = 'Item 1'"
+    },
+    {
+      "name": "Answer48",
+      "elements": [
+        {
+          "type": "rating",
+          "name": "question77",
+          "title": "You're an Aerial Photographer!"
+        }
+      ],
+      "visibleIf": "{question28} = 'Item 2' and {question29} = 'Item 2'"
+    }
+  ],
+  "showPrevButton": false,
+  "showProgressBar": "bottom",
+  "firstPageIsStarted": true
+}
